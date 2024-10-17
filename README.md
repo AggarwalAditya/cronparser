@@ -17,14 +17,8 @@ For example, the following input argument:
 
 Should yield the following output:
 
-!!!!! Welcome to cron parser !!!!!
-
-minute        0 15 30 45
-hour          0
-day of month  1 4 7 10 13 16 19 22 25 28 31
-month         1 2 3 4 5 6 7 8 9 10 11 12
-day of week   3 4 5 6 7
-command       /usr/bin/find
 
 
+
+<img width="756" alt="Screenshot 2024-10-17 at 4 38 23 PM" src="https://github.com/user-attachments/assets/6468a5c9-0a51-4039-b545-a8069114fdcd">
 
