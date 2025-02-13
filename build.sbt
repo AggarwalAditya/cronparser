@@ -6,7 +6,7 @@ val sparkVersion = "2.4.8"
 name := "cas-data-pipelines-dags_" + sparkVersion.replace(".","-")
 organization := "com.groupon"
 
-version := "2.2.61"
+version := "2.2.62"
 
 ThisBuild / useCoursier := false
 
