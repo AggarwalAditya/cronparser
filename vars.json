@@ -1,0 +1,23 @@
+{
+  "project_id": "prj-grp-pushmktg-prod-a1b5",
+  "region": "us-central1",
+  "zone_uri": "us-central1-f",
+  "subnetwork_uri": "projects/prj-grp-shared-vpc-prod-2511/regions/us-central1/subnetworks/sub-vpc-prod-sharedvpc01-us-central1-private",
+  "service_account": "loc-sa-consumer-dataproc@prj-grp-pushmktg-prod-a1b5.iam.gserviceaccount.com",
+  "dataproc_metastore_service": "projects/prj-grp-datalake-prod-8a19/locations/us-central1/services/grpn-dpms-prod-analytics",
+  "master_machine_type": "e2-standard-4",
+  "worker_machine_type": "e2-standard-16",
+  "artifact_base_path": "https://artifactory.groupondev.com/artifactory/releases",
+  "artifact_base_name": "cas-data-pipelines-dags-test_2-4-8",
+  "artifact_version": "2.2.61",
+  "email": "ai-reporting@groupon.com",
+  "pager": "ad-inventory@groupon.pagerduty.com",
+  "worker_num_instances": 20,
+  "ads_gcp_bucket": "grpn-dnd-prod-analytics-grp-ai-reporting",
+  "sparkEnv": "prod",
+  "boot_disk_size_gb": 512,
+  "isCitrusReportEnabled": "true",
+  "isClarusReportEnabled": "true",
+  "db_name": "ad_reporting_na_prod",
+  "delay": "4"
+}

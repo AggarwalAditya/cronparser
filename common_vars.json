@@ -1,0 +1,24 @@
+{
+  "project_id": "prj-grp-consumer-dev-14a6",
+  "region": "us-central1",
+  "zone_uri": "us-central1-f",
+  "subnetwork_uri": "projects/prj-grp-shared-vpc-dev-d89e/regions/us-central1/subnetworks/sub-vpc-dev-sharedvpc01-us-central1-private",
+  "service_account": "loc-sa-consumer-dataproc@prj-grp-consumer-dev-14a6.iam.gserviceaccount.com",
+  "dataproc_metastore_service": "projects/prj-grp-datalake-dev-8876/locations/us-central1/services/grpn-dpms-dev-analytics",
+  "init_secret_script": "gs://grpn-dnd-dev-analytics-common/init/load-certificates.sh",
+  "artifact_base_path": "https://artifactory.groupondev.com/artifactory/releases",
+  "artifact_version": "2.2.61",
+  "push_platform_db": "push_platform",
+  "email": "mrai@groupon.com",
+  "pager": "mrai@groupon.com",
+  "artifact_base_path_snapshots": "https://artifactory.groupondev.com/artifactory/snapshots",
+  "environment": "development",
+  "default_args": {
+    "email": [
+      "<email>@groupon.com"
+    ],
+    "email_on_failure": false
+  },
+  "service": "cas-data-pipelines",
+  "owner": "pmp-engineering"
+}
