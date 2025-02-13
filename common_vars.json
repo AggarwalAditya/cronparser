@@ -7,7 +7,7 @@
   "dataproc_metastore_service": "projects/prj-grp-datalake-dev-8876/locations/us-central1/services/grpn-dpms-dev-analytics",
   "init_secret_script": "gs://grpn-dnd-dev-analytics-common/init/load-certificates.sh",
   "artifact_base_path": "https://artifactory.groupondev.com/artifactory/releases",
-  "artifact_version": "2.2.62",
+  "artifact_version": "2.2.63",
   "push_platform_db": "push_platform",
   "email": "mrai@groupon.com",
   "pager": "mrai@groupon.com",
